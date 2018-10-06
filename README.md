@@ -1,8 +1,8 @@
 # Longest-common-Subsequence
-algorithm，bioinfoematics
+algorithm，bioinfoematics \n
 /*
-author wangyang 
-address School of computer science ,xidian university 
+author wangyang \n
+address School of computer science ,xidian university \n
 time 2018/10/5
 email wangyang_cs2014@163.com
 this project is solve the problem that about longest common subsequence (LCS) problem.
@@ -11,7 +11,7 @@ if you have any question ,plaese write letter give me for email.
 this is my github address. git@github.com:wangyang2014/Longest-common-Subsequence.git .
 welcome you visit;
 */
-#about the Longest-common-Subsequence algorithm
+# about the Longest-common-Subsequence algorithm
 function LCSLength(X[1..m], Y[1..n])
     C = array(0..m, 0..n)
     for i := 0..m
