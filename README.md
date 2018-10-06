@@ -12,6 +12,7 @@ this is my github address. git@github.com:wangyang2014/Longest-common-Subsequenc
 welcome you visit;  
 */  
 # about the Longest-common-Subsequence algorithm
+##  Pseudocode
 function LCSLength(X[1..m], Y[1..n])  
     C = array(0..m, 0..n)  
     for i := 0..m  
@@ -26,6 +27,7 @@ function LCSLength(X[1..m], Y[1..n])
                 C[i,j] := max(C[i,j-1], C[i-1,j])  
     return C[m,n]  
  # get common Subsequence and source
+ ##  Pseudocode
  goldenstr = ‘’  
  function backtrack(C[0..m,0..n], X[1..m], Y[1..n], i, j)  
     if i = 0 or j = 0  
